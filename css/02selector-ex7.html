@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+><html>
+
+<head>
+    <style>
+  /*  id : 100점 */
+  /* class : 10점 */
+  /* element :1점 */
+  /* 같은점수일때는 아래쪽이 적용된다 */
+  /* 클라스를 2개 사용하면 우선순위 적용 */
+  h1 {
+      color: red;
+  }
+  .note{
+      color: yellow;
+  }
+  h1.special{
+      color: blue;
+  }
+  .note.special{
+      color: pink;
+  } 
+   #header1{  
+      color: gray;
+  }
+    </style>
+</head>
+
+<body>
+<h1 class="note">Lorem ipsum dolor sit amet.</h1>
+<h1 class="note special">Lorem ipsum dolor sit amet.</h1>
+<h1 id="header1" class="note special">Labore pariatur eius aliquam a?</h1>
+<h1>Debitis iusto facere laborum quam.</h1>
+<h1>Obcaecati accusamus facere asperiores pariatur?</h1>
+</body>
+
+</html>
