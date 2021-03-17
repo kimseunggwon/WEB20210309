@@ -1,0 +1,23 @@
+body {
+    margin: opx;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: indigo;
+    align-items: center;
+    padding: 8px 12px;
+}
+.navbar_logo {
+    color: gold;
+    font-size: 30px;
+}
+.navbar_icon {
+    position: relative;
+    color: ivory;
+    font-size: 20px;
+}
