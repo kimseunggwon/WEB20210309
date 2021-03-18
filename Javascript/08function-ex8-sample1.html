@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/968f4b00df.js" crossorigin="anonymous"></script>
+<style>
+</style>
+</head>
+<body>
+<input type="text" id="input1">
+<br>
+<input type="text" id="input2">
+<br>
+<button onclick="process()"><i class="fas fa-plus"></i></button>
+<br>
+<input type="text" id="result" readonly>
+
+<script>
+    function process(){
+       var a= document.getElementById("input1");
+       var a= document.getElementById("input2");
+       var c = add(a,b);
+       document.getElementById("result").value = c;
+
+    }
+    function add(x , y) {
+
+        return Number (x) + Number (y);
+
+    }
+</script>
+</body>
+</html>

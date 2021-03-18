@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/968f4b00df.js" crossorigin="anonymous"></script>
+<style>
+</style>
+</head>
+<body>
+
+<button onclick="changeImage(this)"  id="button1">블랙</button>
+<button onclick="changeImage(this)"  id="button2">아이언</button>
+<button onclick="changeImage(this)"  id="button3">캡틴</button>
+<button onclick="changeImage(this)"  id="button4">토르</button>
+<hr>
+<img src="" alt="" id="img1">
+
+<script>
+     function changeImage(elem){
+         document.getElementById("img1").scr =elem.innerHTML+".jpg";
+     }
+</script>
+
+
+</body>
+</html>
