@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/all.min.css">
+
+<td><i class="fas fa-volleyball-ball"></i></td>
+
+<head>
+    
+    <style>
+        #lot{
+            color: deepskyblue;
+            width: 500px;
+            height: 300px;
+            text-align: center;
+            display: flex;
+            margin: auto;
+        }
+        #lot > span {
+            margin: auto;
+            font-size: 50px;
+            color: forestgreen;
+
+        }
+    </style>
+</head>
+
+<body>
+     <button id="lot"onclick="lotto()"><span>번호추천</span></button>
+     <div class="result"></div>
+     <div class="result"></div>
+     <div class="result"></div>
+     <div class="result"></div>
+     <div class="result"></div>
+     <div class="result"></div>
+    <script>
+       
+        function lotto() {
+           var elems= document.getElementsByClassName("result");
+
+           for (var i = 0; i < 6; i++) {
+               elems[i].innerHTML=Math.floor(Math.random()*45) +1 ;
+           }
+            
+           //elems[0].innerHTML=Math.floor(Math.random()*45) +1;
+           //elems[1].innerHTML=Math.floor(Math.random()*45) +1;
+           //elems[2].innerHTML=Math.floor(Math.random()*45) +1;
+           //elems[3].innerHTML=Math.floor(Math.random()*45) +1;
+           //elems[4].innerHTML=Math.floor(Math.random()*45) +1;
+           //elems[5].innerHTML=Math.floor(Math.random()*45) +1;
+        }
+    </script>
+</body>
+
+</html>
