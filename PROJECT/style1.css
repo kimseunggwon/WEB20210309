@@ -11,6 +11,7 @@ a {
     background-color: indigo;
     align-items: center;
     padding: 8px 12px;
+    height: 70px;
 }
 .navbar_logo {
     color: gold;

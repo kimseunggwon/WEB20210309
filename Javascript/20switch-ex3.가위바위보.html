@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://kit.fontawesome.com/f0ae0a2c7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/all.min.css">
 <style>
+    body {
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .container > div {
+        width: 10%;
+    }
+    .container > div:nth-child(2) {
+        text-align: center;
+    }
+    .user,
+    .computer {
+        flex: 1;
+        font-size: 100px;
+    }
+    .user {
+        text-align: right;
+        color: skyblue;
+    }
+    .computer {
+        text-align: left;
+        color: orange;
+    }
+    #result {
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+    }
+     button {
+         font-size: 50px;
+     }
 </style>
 </head>
 <body>
+      
 
-    <button onclick="game(1)"><i calss="fas fa-hand-rock"></i></button>
-    <button onclick="game(2)"><i calss="fas fa-hand-scissors"></i></button>
-    <button onclick="game(3)"><i calss="fas fa-hand-paper"></i></button>
+    <button onclick="game(1)"><i class="fas fa-hand-rock"></i></button>
+    <button onclick="game(2)"><i class="fas fa-hand-scissors"></i></button>
+    <button onclick="game(3)"><i class="fas fa-hand-paper"></i></button>
 
+    
     <div class="container">
         <div class="user"></div>
         <div>VS</div>
@@ -51,14 +87,10 @@
                     break;
                 case 3:
                     elem.innerHTML="<i class='fas fa-hand-paper'></i>";
-                    break;
-            
-                
+                    break;            
             }
 
         }
-
     </script>
-
 </body>
 </html>
