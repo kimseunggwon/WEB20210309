@@ -3,7 +3,7 @@
 
 <head>
 
-  <script>
+  <script> 
     function LinksSetColor(color){
      var alist = document.querySelectorAll('a');
         var i = 0;
@@ -24,9 +24,8 @@
         Body.setBackgroundColor = ('black');
         Body.setColor = ('white');
         self.value = 'day';
-
-       
-        LinksSetColor('powderblue');
+  
+        Links.setColor('powderblue');
       } else {
         Body.setBackgroundColor = ('white');
         Body.setColor = ('black');
@@ -40,14 +39,18 @@
 </head>
 <body>
   <h1><a href="1.WEB">WEB</a></h1>
-  <input id="night_day"type="button" value="night" onclick="
+  <input id="night_day" type="button" value="night" onclick="
          nightDayHandler(this);
     ">
-  <UL>
+    <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+">
+
+   <ol>
     <li><a href="1.LOVE">love</a></li>
     <li><a href="1.See">see</a></li>
     <li><a href="1.Pasion">pasion</a></li>
-  </UL>
+   </ol>
   <h2>Poem</h2>
   <p>
     The most magnificent poem hasn’t been written yet. The mostbeautiful song hasn’t been sung yet. The most glorious

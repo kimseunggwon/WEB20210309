@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/all.min.css">
+
+<head>
+    <style>
+    </style>
+</head>
+ 
+<body>
+    <div id="result"></div>
+
+      <script>
+           //for문  
+           var txt="";
+              for (var i =2; i <=9; i++){
+               for (var j = 1; j <=9; j++) {
+               txt += i +"x"+j+"="+(i*j)+"<br>";
+             }
+            } 
+            
+            //while문
+            var txt="";
+            var i= 2;
+            while (i <=9){
+                
+              var j=1; 
+                while(j <=9){
+                txt += i +"x"+j+"="+(i*j)+"<br>";
+                j++;
+             }
+              i++;
+            }
+            
+
+             document.getElementById("result").innerHTML=txt;
+      </script>
+</body>
+
+</html>
