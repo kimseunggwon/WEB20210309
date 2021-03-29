@@ -1,0 +1,13 @@
+.menueleft{
+    display:;
+   
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menueright{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    list-style: none;
+}

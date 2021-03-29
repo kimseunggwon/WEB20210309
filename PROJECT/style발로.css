@@ -25,17 +25,23 @@ a{
    
 }
 .ko{
-    width: 500px;
-    height: 250px;
+   background-size: cover;
+   height: 250px;
     
 }
-.bar2 {
+.bar {
     display: flex;
     align-items: center;
-    color: ivory;
+    color:black;
+    background-color: darkturquoise;
     justify-content: space-between;
-    position: relative;
+    padding: 3px;
+    margin: -1px;
 }
+.bar a1{
+    padding: 15px;
+}
+
 
     
    
