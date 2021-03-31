@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+}
+a{
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+}
+.navbar_menu{
+    left: 5px;
+    
+}
+.navbar_icon{
+    position: relative;
+    color: white;
+    font-size: 20px;
+}
+#너구리{
+    text-align: center;
+    color:darkgray;
+    font-size:30px;
+    font-family: fantasy;
+    
+   
+}
+.ko{
+    width: 500px;
+    height: 250px;
+    
+}
+.bar2 {
+    display: flex;
+    align-items: center;
+    color: ivory;
+    justify-content: space-between;
+    position: relative;
+}
+
+    
+   
+
