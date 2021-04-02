@@ -1,13 +1,16 @@
-.header{
-  
+#header{
+  margin-right: 200px;
 }
-.menueleft{
-  display: flex;
-  
-  justify-content: space-between;
-    
+#header2{
+  margin-left: 1100px;
 }
-.menueright{
-    display: flex;
-    right: 5px;
+#text5{
+ 
+  text-align: justify;
+  display: inline-block;
+}
+#text1{
+  
+  text-align: justify;
+  display: inline-block;
 }
