@@ -1,16 +1,34 @@
 #header{
-  margin-right: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
 }
 #header2{
-  margin-left: 1100px;
+  margin-left: 750px;
+  justify-content: space-between;
 }
 #text5{
- 
   text-align: justify;
   display: inline-block;
+  justify-content: space-between;
 }
 #text1{
-  
   text-align: justify;
   display: inline-block;
+  justify-content: space-between;
+}
+#mid {
+    text-align: center;
+    justify-content: space-between;
+    border: 5px solid green;
+    font-size: 25px;
+}
+.menu{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
