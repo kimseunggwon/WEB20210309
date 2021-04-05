@@ -1,34 +1,21 @@
-#header{
-    margin-right: 200px;
-    justify-content: space-between;
-}
-#header2{
-  margin-left: 750px;
+.header{
+  list-style: none;
   justify-content: space-between;
+  text-align: center;
+  
 }
-#text5{
-  text-align: justify;
-  display: inline-block;
-  justify-content: space-between;
+.menu1{
+  float: right;
+  text-align: center;
+  display: flex;
+  padding: 5px;
 }
-#text1{
-  text-align: justify;
-  display: inline-block;
-  justify-content: space-between;
+.menu2{
+  float: left;
+  text-align: center;
+  display: flex;
+  padding: 5px;
 }
-#mid {
-    text-align: center;
-    justify-content: space-between;
-    border: 5px solid green;
-    font-size: 25px;
-}
-.menu{
-    background-color: burlywood;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-    color: white;
-}
+.mid{
+  display: flex;
+  text-align:
