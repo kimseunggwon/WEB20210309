@@ -1,8 +1,9 @@
-.header{
+#header{
   list-style: none;
   justify-content: space-between;
   text-align: center;
-  
+  border-bottom:solid gray;
+  background-color: white;
 }
 .menu1{
   float: right;
@@ -17,5 +18,9 @@
   padding: 5px;
 }
 .mid{
-  display: flex;
-  text-align:
+  justify-content: space-between;
+  text-align:center;
+  background-color:lightpink;
+  
+  
+}
