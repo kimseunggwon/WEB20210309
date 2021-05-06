@@ -9,7 +9,7 @@ a{
     align-items: center;
     justify-content: space-between;
     background-color:white;
-    ;
+    list-style: none;
 }
 .navbar_icon{
     position: relative;
@@ -41,14 +41,17 @@ a{
     padding: 15px;
 }
 
-#MENULIST {
-    list-style: none;
-    color: #555555;
-    text-align: center;
-    justify-content: space-between;
+#MENULIST ul {
     display: flex;
+    align-items: center;
+    text-align: center;
+    color: #555555;
+    list-style: none;
+    justify-content: space-between;
+    padding: 40px;
     
 }
+
 
    
 
