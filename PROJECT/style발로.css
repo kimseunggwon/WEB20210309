@@ -2,13 +2,13 @@ body{
     margin: 0px;
 }
 a{
-    color: white;
+    color: black;
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: green;
+    background-color:white;
     ;
 }
 .navbar_icon{
@@ -39,6 +39,11 @@ a{
 }
 .bar a1{
     padding: 15px;
+}
+.MENULIST {
+    list-style: none;
+    color: #555555;
+    
 }
 
 
