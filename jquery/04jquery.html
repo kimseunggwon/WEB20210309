@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<head>
+<style>
+</style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <h1>Id, modi dignissimos?</h1>
+    <h1>Doloribus, explicabo odit.</h1>
+    
+    <!-- 그냥 자바스크립트 -->
+    <script>
+        var heads = document.getElementsByTagName("h1");
+        
+        for ( var i =0; i <heads.length; i ++) {
+            heads[i].style.backgroundColor = "blue";
+        }
+
+    // 제이쿼리 사용
+    $("h1").css("color","white");  
+
+
+
+    </script>
+</body>
+</html>

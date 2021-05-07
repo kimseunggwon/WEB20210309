@@ -9,7 +9,11 @@ a{
     align-items: center;
     justify-content: space-between;
     background-color:white;
+<<<<<<< HEAD
     ;
+=======
+    list-style: none;
+>>>>>>> 64d09ffe2c2f5042fcabbdb19fb4d1d2853e64e9
 }
 .navbar_icon{
     position: relative;
@@ -40,15 +44,18 @@ a{
 .bar a1{
     padding: 15px;
 }
-.product_list{
-    width: 100px;
-    height: 100px;
-    border: 1px solid whitesmoke;
+
+#MENULIST ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #555555;
     list-style: none;
     justify-content: space-between;
-    display: flex;
-    font-size: 14px;color: #555555;
+    padding: 40px;
+    
 }
+
 
    
 
